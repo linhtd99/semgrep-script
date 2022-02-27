@@ -15,6 +15,7 @@ class Application(object):
         self.src_location = self.extract(zipfile, prj_name)
         self.prj_name = prj_name
 
+    # Delete src_location after scan to save storage space
     def __del__(self) -> None:
         shutil.rmtree(self.src_location)
 

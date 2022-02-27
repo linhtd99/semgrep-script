@@ -27,3 +27,5 @@ optional arguments:
 ```bash
 $ python semgrep.py -z ~/sample-project/akamon-csharp.zip
 ```
+
+You can config URL or path to ruleset by modifying CONFIG variable in app.py
